@@ -90,4 +90,126 @@ header .header-top-data .link {
 .container nav .icons img {
   width: 100%;
   height: 100%;
+}
+
+.cards {
+  margin: 0 135px;
+  margin-top: 40px;
+}
+.cards .card-top .top {
+  color: #DB4444;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  position: relative;
+  line-height: 20px;
+  left: 30px;
+}
+.cards .card-top .top::before {
+  content: "";
+  width: 20px;
+  height: 40px;
+  background-color: #DB4444;
+  position: absolute;
+  left: -30px;
+}
+.cards .card-top div {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.cards .card-top div .data {
+  color: #000;
+  font-family: Inter;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 48px;
+  letter-spacing: 1.44px;
+}
+.cards .card-top div .icon {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.cards .card-top div .icon img {
+  padding: 0.3rem;
+  background-color: #F5F5F5;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.cards .card-list {
+  width: 100%;
+  margin-top: 50px;
+  min-height: 700px;
+  display: flex;
+  gap: 5%;
+  flex-wrap: wrap;
+}
+.cards .card-list .card {
+  width: 21.25%;
+  background-color: #fff;
+  height: 320px;
+  position: relative;
+}
+.cards .card-list .card .img {
+  width: 100%;
+  height: 80%;
+  background-color: #F5F5F5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cards .card-list .card .img img {
+  width: 115px;
+  height: 180px;
+}
+.cards .card-list .card .img .icons .icon1 {
+  position: absolute;
+  width: 34px;
+  height: 34px;
+  top: 12px;
+  right: 12px;
+}
+.cards .card-list .card .img .icons .icon2 {
+  position: absolute;
+  width: 31px;
+  height: 31px;
+  top: 47px;
+  right: 14px;
+}
+.cards .card-list .card .data {
+  margin-top: 10px;
+  width: 100%;
+  height: 20%;
+}
+.cards .card-list .card .data h5 {
+  color: #000;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+.cards .card-list .card .data ul {
+  margin-top: 5px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.cards .card-list .card .data ul li:nth-child(1) {
+  color: red;
+}
+.cards .card-list .card .data ul li:nth-child(2) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+}
+.cards .card-list .card .data ul li:nth-child(3) {
+  opacity: 0.5;
 }/*# sourceMappingURL=main.css.map */

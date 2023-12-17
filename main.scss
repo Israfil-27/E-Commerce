@@ -94,3 +94,129 @@ header {
     }
   }
 }
+.cards{
+  margin:0 135px;
+  margin-top: 40px;
+  .card-top{
+    .top{
+      color: #DB4444;
+      font-family: Poppins;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 600;
+      display: flex;
+      align-items: center;
+      position: relative;
+      line-height: 20px;
+      left: 30px;
+      &::before{
+        content: "";
+        width: 20px;
+        height: 40px;
+        background-color: #DB4444;
+        position: absolute;
+        left: -30px;
+        
+      }
+    }
+    div{
+      margin-top: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      .data{
+        color: #000;
+        font-family: Inter;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 48px;
+        letter-spacing: 1.44px;
+      }
+      .icon{
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        img{
+          padding: .3rem;
+          background-color: #F5F5F5;
+          border-radius: 50%;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+  .card-list{
+    width: 100%;
+    margin-top: 50px;
+    min-height: 700px;
+    display: flex;
+    gap: 5%;
+    flex-wrap: wrap;
+    .card{
+      width: calc(85%/4);
+      background-color: #fff;
+      height: 320px;
+      position: relative;
+      .img{
+        width: 100%;
+        height: 80%;
+        background-color: #F5F5F5;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        img{
+          width: 115px;
+          height: 180px;
+        }
+        .icons{
+          .icon1{
+            position: absolute;
+            width: 34px;
+            height: 34px;
+            top: 12px;
+            right: 12px;
+          }
+          .icon2{
+            position: absolute;
+            width: 31px;
+            height: 31px;
+            top: 47px;
+            right: 14px;
+          }
+        }
+      }
+      .data{
+        margin-top: 10px;
+        width: 100%;
+        height: 20%;
+        h5{
+          color: #000;
+          font-family: Poppins;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: 24px;
+        }
+        ul{
+          margin-top: 5px;
+          display: flex;
+          align-items: center;
+          gap: 10px;
+          li:nth-child(1){
+            color: red;
+          }
+          li:nth-child(2){
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 2px;
+          }
+          li:nth-child(3){
+            opacity: 0.5;
+          }
+        }
+      }
+    }
+  }
+}
